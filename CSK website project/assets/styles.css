@@ -1,0 +1,78 @@
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #feca1b; 
+  width: 100%;
+  padding: 10px 20px;
+  height:50px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.logo img {
+  height: 100px;
+  
+}
+
+nav ul {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  list-style: none;
+  height:35px
+}
+
+nav a {
+  text-decoration: none;
+  color: #002147; /* CSK blue */
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+footer {
+ background-color: #feca1b; /* CSK yellow */
+  color:#000000;
+  text-align: center;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+  position: fixed;
+
+}
+
+
+
+.container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+.nav{
+  margin-left: 5px;
+
+}
+
