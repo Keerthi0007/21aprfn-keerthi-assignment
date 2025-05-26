@@ -1,28 +1,28 @@
 function checkDay() {
-  const day = document.getElementById("daySelect").value;
+  const day = document.getElementById("dayInput").value;
   const result = document.getElementById("result");
 
   switch (day) {
-    case "Monday":
-      result.textContent = "Start of the work week!";
+    case "1":
+      result.textContent = "Monday";
       break;
-    case "Tuesday":
-      result.textContent = "Second day of the week.";
+    case "2":
+      result.textContent = "Tuesday.";
       break;
-    case "Wednesday":
-      result.textContent = "Midweek already!";
+    case "3":
+      result.textContent = "Wednesday";
       break;
-    case "Thursday":
-      result.textContent = "Almost there.";
+    case "4":
+      result.textContent = "Thursday";
       break;
-    case "Friday":
-      result.textContent = "Weekend is near!";
+    case "5":
+      result.textContent = "Friday";
       break;
-    case "Saturday":
-      result.textContent = "Enjoy your weekend!";
+    case "6":
+      result.textContent = "Saturday";
       break;
-    case "Sunday":
-      result.textContent = "Relax and recharge!";
+    case "7":
+      result.textContent = "Sunday";
       break;
     default:
       result.textContent = "Please select a day.";

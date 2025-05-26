@@ -1,22 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Day Switch</title>
+  <title>Enter Day Number</title>
 </head>
 <body>
 
-  <h2>Select a Day</h2>
+  <h2>Enter a Day Number (1–7)</h2>
 
-  <select id="daySelect">
-    <option value="">--Choose a day--</option>
-    <option value="Monday">Monday</option>
-    <option value="Tuesday">Tuesday</option>
-    <option value="Wednesday">Wednesday</option>
-    <option value="Thursday">Thursday</option>
-    <option value="Friday">Friday</option>
-    <option value="Saturday">Saturday</option>
-    <option value="Sunday">Sunday</option>
-  </select>
+  <input type="text" id="dayInput" placeholder="Enter 1 to 7" />
+  <p id="result"></p>
 
   <button onclick="checkDay()">Check Day</button>
 
